@@ -7,6 +7,16 @@ The system is fully dynamic — it works for any text input, not limited to a pr
 
 
 
+
+
+
+
+
+
+
+
+
+
 Features
 
 Dynamic Entity Extraction: Automatically detects all entities in a given paragraph.
@@ -18,6 +28,16 @@ Deduplication: Removes duplicate entities to ensure a clean graph.
 Mermaid Graph Generation: Produces diagrams in Mermaid syntax, ready for visualization.
 
 Flexible Input: Works with any text input without hardcoding entities or relationships.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -36,6 +56,16 @@ dotenv – Environment variable management.
 
 
 
+
+
+
+
+
+
+
+
+
+
 Project Struture -
 .
 ├── llm/
@@ -49,6 +79,16 @@ Project Struture -
 ├── main.py                     # Main script to run extraction and graph generation
 ├── README.md                   # Project documentation
 └── .env                        # Environment variables (LLM API key, etc.)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,6 +123,16 @@ graph TD
 
 
 
+
+
+
+
+
+
+
+
+
+
 How It Works
 
 The LLM extracts entities and raw relationships from the input paragraph.
@@ -92,6 +142,16 @@ dedup.py removes duplicates from the entity list.
 dspy_model.py dynamically infers relationships between entities using heuristics.
 
 graph.py converts the entities and relationships into Mermaid graph syntax.
+
+
+
+
+
+
+
+
+
+
 
 
 
